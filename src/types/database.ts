@@ -39,7 +39,7 @@ export interface NewsSource {
   name: string;
   url: string;
   api_endpoint?: string;
-  category: 'crypto' | 'finance' | 'general';
+  category: 'crypto' | 'finance' | 'general' | 'tech';
   is_active: boolean;
   last_fetched: string;
 }

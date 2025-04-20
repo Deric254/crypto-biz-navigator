@@ -49,7 +49,7 @@ CREATE TABLE news_sources (
     name VARCHAR NOT NULL,
     url VARCHAR NOT NULL,
     api_endpoint VARCHAR,
-    category VARCHAR CHECK (category IN ('crypto', 'finance', 'general')),
+    category VARCHAR CHECK (category IN ('crypto', 'finance', 'general', 'tech')),
     is_active BOOLEAN DEFAULT true,
     last_fetched TIMESTAMP WITH TIME ZONE,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
