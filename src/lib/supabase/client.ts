@@ -1,6 +1,6 @@
 
 import { createClient } from '@supabase/supabase-js';
-import { CryptoPromotion, MarketInsightEntry, TradeSignal, NewsSource } from '../../types/database';
+import { CryptoPromotion, MarketInsightEntry, TradeSignal, NewsSource } from '@/types/database';
 
 // Type definition for our Database structure
 export type Database = {
